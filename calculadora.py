@@ -84,7 +84,7 @@ btn1.place(x=0, y=0)
 btn2 = Button(frameKeyboard, command = lambda: inputValue('%'), text="%", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn2.place(x=162, y=0)
 
-btn3 = Button(frameKeyboard, command = lambda: inputValue('*'), text="/", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
+btn3 = Button(frameKeyboard, command = lambda: inputValue('/'), text="/", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn3.place(x=243, y=0)
 
 
@@ -97,7 +97,7 @@ btn5.place(x=81, y=49)
 btn6 = Button(frameKeyboard, command = lambda: inputValue('9'), text="9", width=8, height=2, bg=color4, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color3, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn6.place(x=162, y=49)
 
-btn7 = Button(frameKeyboard, command = lambda: inputValue('/'), text="x", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
+btn7 = Button(frameKeyboard, command = lambda: inputValue('*'), text="x", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn7.place(x=243, y=49)
 
 
@@ -110,7 +110,7 @@ btn9.place(x=81, y=98)
 btn10 = Button(frameKeyboard, command = lambda: inputValue('6'), text="6", width=8, height=2, bg=color4, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color3, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn10.place(x=162, y=98)
 
-btn11 = Button(frameKeyboard, command = lambda: inputValue('+'), text="-", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
+btn11 = Button(frameKeyboard, command = lambda: inputValue('-'), text="-", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn11.place(x=243, y=98)
 
 
@@ -123,7 +123,7 @@ btn13.place(x=81, y=147)
 btn14 = Button(frameKeyboard, command = lambda: inputValue('3'), text="3", width=8, height=2, bg=color4, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color3, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn14.place(x=162, y=147)
 
-btn15 = Button(frameKeyboard, command = lambda: inputValue('-'), text="+", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
+btn15 = Button(frameKeyboard, command = lambda: inputValue('+'), text="+", width=8, height=2, bg=color3, fg=color2, font=("Ivy 11 bold"), relief="flat", overrelief="raised", activebackground=color4, activeforeground=color2, highlightthickness=0, borderwidth=0)
 btn15.place(x=243, y=147)
 
 
